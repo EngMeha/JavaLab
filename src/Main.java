@@ -1,4 +1,5 @@
 import tasks.one.Task1;
+import tasks.two.Task2;
 
 import java.util.*;
 
@@ -18,6 +19,7 @@ public class Main {
                     Task1.main(args);
                     break;
                 case "2":
+                    Task2.main(args);
                     break;
                 case "3":
                     break;

@@ -1,5 +1,6 @@
 import tasks.one.Task1;
 import tasks.two.Task2;
+import tasks.three.Task3;
 
 import java.util.*;
 
@@ -22,6 +23,7 @@ public class Main {
                     Task2.main(args);
                     break;
                 case "3":
+                    Task3.main(args);
                     break;
                 case "exit":
                     System.out.println("Пока");
